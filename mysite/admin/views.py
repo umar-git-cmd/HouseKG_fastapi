@@ -8,3 +8,4 @@ class UserProfileAdmin(ModelView, model=UserProfile):
 
 class RegionAdmin(ModelView, model=Region):
     column_list = [Region.id, Region.id]
+
