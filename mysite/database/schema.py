@@ -117,3 +117,13 @@ class ReviewInputSchema(BaseModel):
     comment: str | None
     author_id: int
     property_id: int
+
+
+class HouseSchema(BaseModel):
+    GrLivArea: int
+    YearBuilt: int
+    GarageCars: int
+    TotalBsmtSF: int
+    FullBath: int
+    OverallQual: int
+    Neighborhood: str
